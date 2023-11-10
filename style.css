@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Plumpelo2';
+    src: url('Plumpelo.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+@font-face {
+    font-family: 'Plumpelo-Plumpy';
+    src: url('Plumpelo-Plumpy.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+@font-face {
+    font-family: 'Pix';
+    src: url('FT88-Regular.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+
+@font-face {
+    font-family: 'Aperco';
+    src: url('apercu_bold_italic_pro.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+@font-face {
+    font-family: 'thin';
+    src: url('Plumpelo-Thin.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+@font-face {
+    font-family: 'Luis';
+    src: url('Louise-Regular\ copy.otf') format('truetype');
+    text-align: center;
+    margin: 23px;
+}
+
+body {
+    font-family: 'Plumpelo2', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label, input, button {
+    margin: 2px;
+}
+
+
+h1, h2, h3 {
+    font-family: 'thin', sans-serif;
+    /* Specify the font weight and style for headings if needed */
+}
+h1 {
+    font-family: 'Plumpelo2';
+    font-size: 59px;
+    color: #000000; /* You can adjust the size as needed */
+}
+
+button {
+    padding: 8px 8px;
+    background-color: #FBE1E9;
+    color: #000000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+
+/* Apply the font to input boxes in addable columns */
+#courseTable input[type="text"],
+#courseTable input[type="number"] {
+    font-family: 'pix', sans-serif, sans-serif;
+    font-size: 14px;
+    height: 35px;
+    background-color: #FBE1E9;
+    width: 130px; 
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    /* You can add additional styling if needed */
+}
+
+/* Apply the font to all buttons */
+button {
+    font-family: 'thin', sans-serif;
+    font-size: 17px;
+    /* You can add additional styling if needed */
+}
+
+input{
+    box-sizing: content-box;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the animation to an element */
+#animateMe {
+    animation: fadeIn 1.5s ease-out; /* Animation name, duration, and timing function */
+}
+
