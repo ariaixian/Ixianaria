@@ -296,25 +296,7 @@
     }
 </style>
 
-<script>
-    function saveToPDF() {
-        // Create a new jsPDF instance
-        const pdf = new jsPDF();
 
-        // Add content to the PDF
-        pdf.text("Course Table", 20, 10);
-
-        // Use autoTable plugin to generate the table
-        pdf.autoTable({ html: '#courseTable' });
-
-        // Add the result (average grade) to the PDF
-        const result = document.getElementById("result").textContent;
-        pdf.text(result, 20, pdf.autoTable.previous.finalY + 10);
-
-        // Save the PDF
-        pdf.save("course_table.pdf");
-    }
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 
 </body>
