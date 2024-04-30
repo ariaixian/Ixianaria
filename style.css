@@ -119,6 +119,6 @@ input{
 
 /* Apply the animation to an element */
 #animateMe {
-    animation: fadeIn 50s ease-out; /* Animation name, duration, and timing function */
+    animation: fadeIn 1.5s ease-out; /* Animation name, duration, and timing function */
 }
 
